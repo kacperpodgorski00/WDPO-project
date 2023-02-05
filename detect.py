@@ -83,22 +83,22 @@ def detect(img_path: str) -> Dict[str, int]:
     countedPurple, countedPurpleImg = count_candies(hsvImg, LTPurple, UTPurple, EDCOPurple)
 
 
-    print("")
-    print("yellow = " + str(countedYellow))
-    print("green = " + str(countedGreen))
-    print("red = " + str(countedRed))
-    print("purple = " + str(countedPurple))
+    # print("")
+    # print("yellow = " + str(countedYellow))
+    # print("green = " + str(countedGreen))
+    # print("red = " + str(countedRed))
+    # print("purple = " + str(countedPurple))
 
-    cv2.imshow('orginalImg', resizedImg)
+    #cv2.imshow('orginalImg', resizedImg)
     #cv2.imshow('countedYellow', countedYellowImg)
     #cv2.imshow('countedGreen', countedGreenImg)
     #cv2.imshow('countedRed', countedRedImg)
     #cv2.imshow('countedPurple', countedPurpleImg)
 
 
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
 
-    cv2.destroyAllWindows()
+    #cv2.destroyAllWindows()
 
 
     red = countedRed
